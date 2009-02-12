@@ -1,6 +1,12 @@
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.exe
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.pdb
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.exe
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.pdb
-C:\Users\jasonh\Documents\Visual Studio 2008\Projects\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPIWrapper.dll
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.exe
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.pdb
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPIWrapper.dll
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.exe
+C:\Projects\CampaignMonitor\merged\extras\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.pdb
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.exe
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\CampaignMonitorAPISample.pdb
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.exe
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPISample.pdb
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\bin\Debug\CampaignMonitorAPIWrapper.dll
+C:\Users\philg.FRESHVIEW\Desktop\campaignmonitor-net-api-wrapper-without-source\CampaignMonitorAPISample\CampaignMonitorAPISample\obj\Debug\ResolveAssemblyReference.cache

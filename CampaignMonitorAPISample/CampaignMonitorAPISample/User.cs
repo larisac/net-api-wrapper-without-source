@@ -37,5 +37,39 @@ namespace CampaignMonitorAPISample
             else
                 Console.WriteLine("System date in users timezone : " + result.ReturnObject.ToString());
         }
+
+        internal static void GetTimeZones()
+        {
+            string apiKey = "xxxxxxxxxxxxApiKeyxxxxxxxxxxxxxx";
+
+            var result = CampaignMonitorAPIWrapper.User.GetTimeZones(apiKey);
+
+            if (result.Code != 0)
+                Console.WriteLine("Error getting time zones : " + result.Code.ToString() + " - " + result.Message);
+            else
+                foreach (var timezone in result.ReturnObject)
+                {
+                    Console.WriteLine("TimeZone : " + timezone);
+
+                    Console.WriteLine("---------------------------------------");
+                }
+        }
+
+        internal static void GetCountries()
+        {
+            string apiKey = "xxxxxxxxxxxxApiKeyxxxxxxxxxxxxxx";
+
+            var result = CampaignMonitorAPIWrapper.User.GetCountries(apiKey);
+
+            if (result.Code != 0)
+                Console.WriteLine("Error getting time zones : " + result.Code.ToString() + " - " + result.Message);
+            else
+                foreach (var timezone in result.ReturnObject)
+                {
+                    Console.WriteLine("Country : " + timezone);
+
+                    Console.WriteLine("---------------------------------------");
+                }
+        }
     }
 }
