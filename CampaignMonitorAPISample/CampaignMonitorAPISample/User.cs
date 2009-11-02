@@ -6,6 +6,20 @@ namespace CampaignMonitorAPISample
 {
     public class User
     {
+        internal static void GetApiKey()
+        {
+            string siteUrl = "xxxxxxxxxxxxSiteUrlxxxxxxxxxxxx";
+            string username = "xxxxxxxxxxxxUsernamexxxxxxxxxxxx";
+            string password = "xxxxxxxxxxxxPasswordxxxxxxxxxxxx";
+
+            var result = CampaignMonitorAPIWrapper.User.GetApiKey(siteUrl, username, password);
+
+            if (result.Code != 0)
+                Console.WriteLine("Error getting API key : " + result.Code.ToString() + " - " + result.Message);
+            else
+                Console.WriteLine("API Key: " + result.ReturnObject.ToString());
+        }
+
         internal static void GetClients()
         {
             string apiKey = "xxxxxxxxxxxxApiKeyxxxxxxxxxxxxxx";

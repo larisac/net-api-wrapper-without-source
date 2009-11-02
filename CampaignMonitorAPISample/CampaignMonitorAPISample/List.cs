@@ -51,6 +51,26 @@ namespace CampaignMonitorAPISample
             }
         }
 
+        internal static void GetStats()
+        {
+            string apiKey = "xxxxxxxxxxxxApiKeyxxxxxxxxxxxxxx";
+            string listID = "xxxxxxxxxxxxListIDxxxxxxxxxxxxxx";
+
+            var result = CampaignMonitorAPIWrapper.List.GetStats(apiKey, listID);
+
+            if (result.Code != 0)
+                Console.WriteLine("Error retrieving the subscriber list statistics : " + result.Code.ToString() + " - " + result.Message);
+            else
+            {
+                Console.WriteLine("Total active subscribers: " + result.ReturnObject.TotalActiveSubscribers);
+                Console.WriteLine("New active subscribers today: " + result.ReturnObject.NewActiveSubscribersToday);
+                Console.WriteLine("New active subscribers yesterday: " + result.ReturnObject.NewActiveSubscribersYesterday);
+                Console.WriteLine("New active subscribers this week: " + result.ReturnObject.NewActiveSubscribersThisWeek);
+                Console.WriteLine("New active subscribers this month: " + result.ReturnObject.NewActiveSubscribersThisMonth);
+                Console.WriteLine("New active subscribers this year: " + result.ReturnObject.NewActiveSubscribersThisYear);
+            }
+        }
+
         internal static void Delete()
         {
             string apiKey = "xxxxxxxxxxxxApiKeyxxxxxxxxxxxxxx";

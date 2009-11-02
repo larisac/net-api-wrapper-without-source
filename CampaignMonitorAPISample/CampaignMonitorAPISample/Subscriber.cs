@@ -35,6 +35,7 @@ namespace CampaignMonitorAPISample
             customFields.Add(new CustomField("Dog", "Fido"));
 
             //adding a multi-option, multi select
+            //Note we need to add the multi select items as their own custom fields with the same key. 
             customFields.Add(new CustomField("Interests", "Basketball"));
             customFields.Add(new CustomField("Interests", "Xbox"));
 

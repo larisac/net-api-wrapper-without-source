@@ -43,6 +43,7 @@ namespace CampaignMonitorAPISample
             //List.Create();
             //List.Update();
             //List.GetDetail();
+            //List.GetStats();
             //List.Delete();
             #endregion
 
@@ -60,6 +61,7 @@ namespace CampaignMonitorAPISample
             #endregion
 
             #region User. operations
+            //User.GetApiKey();
             //User.GetClients();
             //User.GetSystemDate();
             //User.GetTimezones();
