@@ -77,7 +77,5 @@ namespace CampaignMonitorAPISample
 
             Console.ReadLine(); // pause
         }
-
-        
     }
 }

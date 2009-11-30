@@ -123,6 +123,7 @@ namespace CampaignMonitorAPISample
                 {
                     Console.WriteLine("CampaignID : " + campaign.CampaignID);
                     Console.WriteLine("Subject : " + campaign.Subject);
+                    Console.WriteLine("Campaign Name : " + campaign.Name);
                     Console.WriteLine("Sent Date : " + campaign.SentDate);
                     Console.WriteLine("Total Recipients : " + campaign.TotalRecipients);
 

@@ -68,6 +68,24 @@ namespace CampaignMonitorAPISample
                 Console.WriteLine("New active subscribers this week: " + result.ReturnObject.NewActiveSubscribersThisWeek);
                 Console.WriteLine("New active subscribers this month: " + result.ReturnObject.NewActiveSubscribersThisMonth);
                 Console.WriteLine("New active subscribers this year: " + result.ReturnObject.NewActiveSubscribersThisYear);
+                Console.WriteLine("Total unsubscribes: " + result.ReturnObject.TotalUnsubscribes);
+                Console.WriteLine("Unsubscribes today: " + result.ReturnObject.UnsubscribesToday);
+                Console.WriteLine("Unsubscribes yesterday: " + result.ReturnObject.UnsubscribesYesterday);
+                Console.WriteLine("Unsubscribes this week: " + result.ReturnObject.UnsubscribesThisWeek);
+                Console.WriteLine("Unsubscribes this month: " + result.ReturnObject.UnsubscribesThisMonth);
+                Console.WriteLine("Unsubscribes this year: " + result.ReturnObject.UnsubscribesThisYear);
+                Console.WriteLine("Total deleted: " + result.ReturnObject.TotalDeleted);
+                Console.WriteLine("Deleted today: " + result.ReturnObject.DeletedToday);
+                Console.WriteLine("Deleted yesterday: " + result.ReturnObject.DeletedYesterday);
+                Console.WriteLine("Deleted this week: " + result.ReturnObject.DeletedThisWeek);
+                Console.WriteLine("Deleted this month: " + result.ReturnObject.DeletedThisMonth);
+                Console.WriteLine("Deleted this year: " + result.ReturnObject.DeletedThisYear);
+                Console.WriteLine("Total bounces: " + result.ReturnObject.TotalBounces);
+                Console.WriteLine("Bounces today: " + result.ReturnObject.BouncesToday);
+                Console.WriteLine("Bounces yesterday: " + result.ReturnObject.BouncesYesterday);
+                Console.WriteLine("Bounces this week: " + result.ReturnObject.BouncesThisWeek);
+                Console.WriteLine("Bounces this month: " + result.ReturnObject.BouncesThisMonth);
+                Console.WriteLine("Bounces this year: " + result.ReturnObject.BouncesThisYear);
             }
         }
 
